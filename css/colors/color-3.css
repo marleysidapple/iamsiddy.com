@@ -1,0 +1,132 @@
+
+.page-title h2{
+	color:#D64541;
+}
+
+.social-icons a:hover{
+	color:#D64541;
+ 	border: solid 1px #D64541;
+}
+
+ul.top-menu li a:hover{
+	color:#D64541;
+}
+
+ul.top-menu li .selected{
+	color:#D64541;
+}
+
+.skill-list .progress{
+    border: 1px solid #D64541;
+}
+
+.skill-list .progress .percentage {
+    background-color: #D64541;
+}
+
+.services .service i{
+    background: #D64541;
+}
+
+.rounded-icon i{
+	background:#D64541;
+}
+
+.info-title::after {
+    background: #D64541;
+}
+
+.info-date{
+    color: #D64541;
+}
+
+.select-cat{
+	color:#D64541 !important;
+}
+
+.blog-post .post-info{
+	color:#D64541;
+}
+
+.but-big{
+	background-color: #D64541;
+}
+
+.social-icons a:hover{
+	color:#D64541;
+ 	border: solid 1px #D64541;
+}
+
+ul.top-menu li a:hover{
+	color:#D64541;
+	transition:all ease 0.2s;
+}
+
+ul.top-menu li .selected{
+	color:#D64541;
+}
+
+.date a {
+	color:#D64541;
+}
+
+a.reply {
+	color:#D64541;
+}
+
+/*new colors*/
+
+ 
+ .widget-title{
+	color:#D64541;
+  }
+
+ .widget-blog .latest-post .tag{ 
+  	color:#D64541;
+  }
+
+
+.widget-submenu ul li {
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+
+ .tag a{
+	color:#D64541 !important;
+	transition:all ease 0.2s;
+  }
+  
+  .tag a:hover{
+	color:#D64541 !important;
+  }
+
+ul.top-menu li.active{
+	border-bottom: 3px solid #D64541;
+}
+
+
+.widget-submenu ul li:hover {
+    color: #D64541;
+	transition:all ease 0.2s;
+}
+
+.widget-tags ul li a:hover {
+    background: #D64541;
+	transition:all ease 0.2s;
+	color:#fff;
+}
+
+.widget-search form:hover {
+    border: solid 1px #D64541;
+	transition:all ease 0.5s;
+}
+
+ul.top-menu li a:hover{
+	color:#D64541;
+}
+ul.top-menu li:hover{
+	border-bottom: 3px solid #D64541;
+}

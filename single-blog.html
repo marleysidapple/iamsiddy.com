@@ -1,0 +1,306 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Posts Page</title>
+	<meta name="description" content="Picard Html vCard">
+    <meta name="keywords" content="business, personal, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css"/> <!-- bootstrap grid -->
+    <link rel="stylesheet" href="css/style.css"/> <!-- template css -->
+    <link rel="stylesheet" href="css/reset.css"/> <!-- reset css -->
+    <link href="perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" /> <!-- right menu scrollbar css -->   
+    
+     <!-- Color Alternatives -->   
+    <link href="css/colors/switcher.css" rel="stylesheet" type="text/css">
+    <link href="css/colors/color-1.css" rel="stylesheet" type="text/css">
+    <link href="css/colors/color-2.css" rel="alternate stylesheet" type="text/css" title="color-2">
+    <link href="css/colors/color-3.css" rel="alternate stylesheet" type="text/css" title="color-3">
+    <link href="css/colors/color-4.css" rel="alternate stylesheet" type="text/css" title="color-4">
+    <link href="css/colors/color-5.css" rel="alternate stylesheet" type="text/css" title="color-5">
+    <link href="css/colors/color-6.css" rel="alternate stylesheet" type="text/css" title="color-6">
+    <link href="css/colors/color-7.css" rel="alternate stylesheet" type="text/css" title="color-7">
+    <link href="css/colors/color-8.css" rel="alternate stylesheet" type="text/css" title="color-8">
+    
+    <!-- Google Web fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+    
+    <!-- Font icons -->
+    <link rel="stylesheet" href="icon-fonts/font-awesome-4.4.0/css/font-awesome.min.css"/> <!-- Fontawesome icons css -->
+    
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        
+</head>
+
+<body>
+	 <!-- Preloading --> 
+    <div id="preloader">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+   
+     <div class="color-switcher">
+    	<div class="open"><i class="fa fa-cog fa-spin"></i></div>
+        <h4>SELECT A COLOR</h4>
+        <ul>
+        	<li><a class="color-1" onclick="setActiveStyleSheet('color-1'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+            <li><a class="color-2" onclick="setActiveStyleSheet('color-2'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+            <li><a class="color-3" onclick="setActiveStyleSheet('color-3'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+            <li><a class="color-4" onclick="setActiveStyleSheet('color-4'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+            <li><a class="color-5" onclick="setActiveStyleSheet('color-5'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+            <li><a class="color-6" onclick="setActiveStyleSheet('color-6'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+            <li><a class="color-7" onclick="setActiveStyleSheet('color-7'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+            <li><a class="color-8" onclick="setActiveStyleSheet('color-8'); return false;" href="single-blog.html#"><i class="fa fa-circle"></i></a> </li>
+        </ul>
+        <button class="switcher-reset" onclick="setActiveStyleSheet('color-1'); return false;">RESET </button>
+        
+    </div>
+   
+    <div class="parallax"> </div>
+    <div id="wrapper">
+        <div class="container">
+            <div class="row">
+            	
+                <!-- Profile Informations-->
+                <div class="profile col-md-3 wow fadeInDown">
+                    <div class="profile-image">
+                        <img src="images/Profile-img.png">
+                    </div>
+                    <div class="profile-info">
+                    	<div class="name-job">
+                            <h1>CHRIS JOHNSON</h1>
+                            <span class="job"> Web Designer </span>
+                        </div><!-- .name-job -->                        
+                         <div class="social-icons">
+                            <a class="facebook" href="single-blog.html#"><i class="fa fa-facebook"></i> </a>
+                            <a class="twitter" href="single-blog.html#"><i class="fa fa-twitter"></i> </a>
+                            <a class="behance" href="single-blog.html#"><i class="fa fa-behance"></i> </a>
+                            <a  class="dribbble" href="single-blog.html#"><i class="fa fa-dribbble"></i> </a>
+                        </div>
+                    </div>
+                </div> <!--.profile .col-md-3-->
+                
+                <!--Right Section-->
+                <div class="col-md-9">
+                    	<!--Top Menu -->
+                        <div class="responsive-menu hidden-md hidden-lg">MENU</div> 
+                        <i class="fa fa-bars right-menu"></i> 
+                    	<ul class="top-menu wow fadeInRight">
+                        	<li> <a href="index.html"><i class="fa fa-user"></i> <span> ABOUT </span></a></li>
+                            <li> <a href="index.html#blog"><i class="fa fa-rotate-left"></i> <span >BACK BLOG PAGE</span></a></li>
+                        </ul>
+                   
+                    <!--Right Content-->
+                    <div class="content col-md-12 wow fadeInUp">
+                    	<div class="row">
+                    		<div class="page-title">
+                           		<h2>Blog Posts </h2>
+                            </div>
+                            <div class="col-md-12 page">
+                            	<!--Blog Post -->
+                                <div class="col-md-12 blog-post">
+                                	<div class="post-image">
+                                    	<img src="images/post-1.jpg" alt="">                                       
+                                    </div> 
+                                    <div class="post-title">
+                                    	<h1>Working principle, how do we work?</h1> 
+                                    </div>  
+                                    <div class="post-info">
+                                    	<span>December 06, 2016 / Business, Company / 2 Comments</span>
+                                    </div>  
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at quam at orci commodo hendrerit vitae nec eros. Vestibulum neque est, imperdiet nec tortor nec, tempor semper metus. Cras vel tempus velit, et accumsan nisi. Duis laoreet pretium ultricies. Curabitur rhoncus auctor nunc congue sodales. Sed posuere nisi ipsum, eget dignissim nunc dapibus eget. Aenean elementum aliquet mollis. Curabitur ac quam orci. Suspendisse metus mauris, gravida in augue in, interdum bibendum dui. Suspendisse sit amet justo sit amet diam fringilla commodo. Praesent ac magna at metus malesuada tincidunt non ac arcu. Nunc gravida eu felis vel elementum. Vestibulum sodales quam ut tempor tempor. Donec sollicitudin sapien ut sapien fermentum, non ultricies nulla gravida.
+
+Etiam eu libero tincidunt, tincidunt odio tempor, vehicula nisi. Aliquam sagittis condimentum metus sagittis elementum. Nulla dolor metus, sollicitudin a tellus eu, sollicitudin dapibus nibh. Mauris mauris velit, viverra ut lacus nec, maximus aliquam nisl. Aliquam laoreet laoreet quam, ut sagittis massa dignissim id. Curabitur et diam odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse vitae lectus vulputate, posuere neque tristique, porta neque. Suspendisse finibus eget erat eu vulputate. Etiam et tincidunt felis. Donec eget lacus odio. Sed euismod volutpat tellus. In hac habitasse platea dictumst. Cras quis nisi dignissim, egestas dolor et, bibendum urna. Praesent enim sapien, molestie nec diam vehicula, aliquet accumsan urna. Proin tempor vehicula iaculis.
+
+Mauris vitae consequat neque. Pellentesque non lorem nibh. Curabitur laoreet, nisi sed porta fringilla, leo felis congue ligula, et auctor ex risus non massa. Mauris mattis a est quis ultrices. Mauris dapibus, risus ut facilisis tempor, lacus ex porta risus, sit amet aliquet libero magna aliquam est. Vivamus sit amet arcu felis. Duis accumsan nec mauris sit amet consectetur. Curabitur eu nisl consectetur, pulvinar velit sit amet, fringilla metus. Integer felis ante, lacinia non faucibus nec, congue eu leo. Etiam eget dolor at ligula laoreet maximus sit amet a est. Fusce non orci quis urna suscipit placerat. Integer id elementum nulla. Fusce blandit, felis vel suscipit condimentum, quam metus placerat massa, sed ornare libero dui ut justo. Maecenas accumsan tempor odio eget sagittis. Cras vitae ultrices turpis, vitae suscipit massa. Aenean in mi non libero lacinia sollicitudin nec at purus.</p>
+                                </div>
+                                
+                                <!-- Comments -->
+                                 <div class="col-md-12 post-comments">
+                                 	<h2 class="section-title">Comments(2)</h2>
+                                    	<ul class="comments clearfix">
+                                        	<!-- comment -->
+                                        	<li>
+                                                <div class="user-img">
+                                                	<img src="images/comment-1.png">
+                                                </div>
+                                                <div class="comment-content">
+                                                	<div class="comment-info">
+                                                        <div class="user">
+                                                            <a class="user-name" href="single-blog.html#">Jackson Richardson</a>
+                                               				<a class="reply" href="single-blog.html#"> Reply </a>
+                                                        </div> <!-- .user -->
+                                                        <div class="date">
+                                                            <a href="single-blog.html#">Jan 06, 2016 at 14:35</a>
+                                                        </div> <!-- .date -->
+                                                    </div> <!-- .comment-info end -->
+                                                    <p class="comment-text">Nulla consequat elit aliquam mauris molestie fermentum. Nam at tempor massa, mattis vulputate felis. Maecenas est arcu, viverra vitae elit vel, pretium malesuada lectus. Proin ut vulputate ex. </p>
+                                                </div> <!-- .comment-content end-->
+                                            </li>
+                                            <!-- comment -->
+                                            <li class="comment-reply">
+                                                <div class="user-img">
+                                                	<img src="images/comment-1.png">
+                                                </div>
+                                                <div class="comment-content">
+                                                	<div class="comment-info">
+                                                        <div class="user">
+                                                            <a class="user-name" href="single-blog.html#">Jackson Richardson</a>
+                                               				<a class="reply" href="single-blog.html#"> Reply </a>
+                                                        </div> <!-- .user -->
+                                                        <div class="date">
+                                                            <a href="single-blog.html#">Jan 06, 2016 at 14:35</a>
+                                                        </div> <!-- .date -->
+                                                    </div> <!-- .comment-info end -->
+                                                    <p class="comment-text">Nulla consequat elit aliquam mauris molestie fermentum. Nam at tempor massa, mattis vulputate felis. Maecenas est arcu, viverra vitae elit vel, pretium malesuada lectus. Proin ut vulputate ex. </p>
+                                                </div> <!-- .comment-content end-->
+                                            </li>
+                                            <!-- comment -->
+                                            <li>
+                                                <div class="user-img">
+                                                	<img src="images/comment-1.png">
+                                                </div>
+                                                <div class="comment-content">
+                                                	<div class="comment-info">
+                                                        <div class="user">
+                                                            <a class="user-name" href="single-blog.html#">Jackson Richardson</a>
+                                               				<a class="reply" href="single-blog.html#"> Reply </a>
+                                                        </div> <!-- .user -->
+                                                        <div class="date">
+                                                            <a href="single-blog.html#">Jan 06, 2016 at 14:35</a>
+                                                        </div> <!-- .date -->
+                                                    </div> <!-- .comment-info end -->
+                                                    <p class="comment-text">Nulla consequat elit aliquam mauris molestie fermentum. Nam at tempor massa, mattis vulputate felis. Maecenas est arcu, viverra vitae elit vel, pretium malesuada lectus. Proin ut vulputate ex. </p>
+                                                </div> <!-- .comment-content end-->
+                                            </li>
+                                        </ul>
+                                 </div> <!-- .col-md-12 .post-comments end -->
+                                 
+                                 <!-- Write Message -->
+                                 <div class="col-md-12 write-message">
+                                 	
+                                    <h2 class="section-title">Write a Message</h2>
+                                    <div class="row">
+                                        <!-- Name -->
+                                        <div class="col-md-6">
+                                            <input class="blog-msg" type="text" placeholder="Name">
+                                        </div>
+                                        <!-- Email -->
+                                        <div class="col-md-6">
+                                            <input class="blog-msg" type="text" placeholder="Email">
+                                        </div>
+                                        <!-- Website -->
+                                        <div class="col-md-12">
+                                            <input class="blog-msg" type="text" placeholder="Website">
+                                        </div>
+                                        <!-- Message -->
+                                        <div class="col-md-12">
+                                            <textarea placeholder="Message" rows="8"></textarea>
+                                        </div>                                        
+                                    </div>  
+                                    <input class="but-big" type="submit" value="SEND A MESSAGE">                                  
+                                 </div>
+                                
+                                
+                                <!--footer-->
+                                <footer class="footer"> <p>  Copyright © 2016 All right reserved </p></footer>
+                                                                                              
+                            </div><!-- .col-md-12 .page -->
+                        </div><!--.row end-->
+                    </div> <!--.content .col-md-12 end -->
+                </div> <!-- .col-md-9 end -->
+            </div> <!-- .row end-->
+        </div><!-- .container end -->
+    </div> <!-- #wrapper end-->
+    
+    <!-- Sidebar Menu -->
+        <div class="slidemenu-fixed">
+            <button class="right-menu slidemenu-close"><i class="fa fa-times" aria-hidden="true"></i></button>  
+            <div class="widget-out">     
+                <!-- Search Widget-->
+                <div class="widget-search widget">
+                    <h2 class="widget-title">Search</h2>
+                    <form>                                    
+                        <input class="search-inp" type="text" placeholder="Arama Yap...">
+                        <input class="search-ico" type="submit" value="">
+                    </form>
+                 </div>
+                <!-- Submenu Widget-->
+                <div class="widget-submenu widget">
+                    <h2 class="widget-title">Submenu</h2>
+                        <ul>
+                           <li> Standart Post </li>
+                           <li> Audio Post </li>
+                           <li> Video Post </li>
+                           <li> 404 Page </li>
+                           <li> Under Construction </li>
+                        </ul>
+                 </div>
+                 <!--Latest Posts-->
+                <div class="widget-blog widget">
+                    <h2 class="widget-title">Latest Posts</h2>
+                        <ul class="latest-post">
+                           <li> 
+                                <div class="tag"><a href="single-blog.html#">#Business </a> <a href="single-blog.html#">#Company </a> </div> 
+                                <a class="post" href="single-blog.html#">  I should be incapable of drawing a single stroke at the present moment and yet I feel that... </a>
+                                <span> August 23, 2016 <i class="fa fa-comments-o" aria-hidden="true"></i> 15 </span>
+                           </li>
+                           <li> 
+                                <div class="tag"><a href="single-blog.html#">#Business </a> <a href="single-blog.html#">#Company </a> </div> 
+                                <a class="post" href="single-blog.html#">  I should be incapable of drawing a single stroke at the present moment and yet I feel that... </a>
+                                <span> August 23, 2016 <i class="fa fa-comments-o" aria-hidden="true"></i> 15 </span>
+                           </li>
+                           <li> 
+                                <div class="tag"><a href="single-blog.html#">#Business </a> <a href="single-blog.html#">#Company </a> </div> 
+                                <a class="post" href="single-blog.html#">  I should be incapable of drawing a single stroke at the present moment and yet I feel that... </a>
+                                <span> August 23, 2016 <i class="fa fa-comments-o" aria-hidden="true"></i> 15 </span>
+                           </li>                           
+                        </ul>
+                 </div>
+                 <!-- Categories Widget-->
+                <div class="widget-submenu widget">
+                    <h2 class="widget-title">Categories</h2>
+                        <ul>
+                           <li> Web Design </li>
+                           <li> Photoshop  </li>
+                           <li> After Effect </li>
+                           <li> Dreamviewer </li>
+                        </ul>
+                 </div>
+                 <!-- Tags Widget-->
+                <div class="widget-tags widget">
+                    <h2 class="widget-title">Tags</h2>
+                        <ul>
+                           <li><a href="single-blog.html#"> Web Design </a></li>
+                           <li><a href="single-blog.html#"> Photoshop </a></li>
+                           <li><a href="single-blog.html#"> After Effect </a></li>
+                           <li><a href="single-blog.html#"> Dreamviewer </a></li>
+                           <li><a href="single-blog.html#"> Application </a></li>
+                           <li><a href="single-blog.html#"> Seo </a></li>
+                           <li><a href="single-blog.html#"> Other Issues </a></li>
+                        </ul>
+                 </div>
+            </div>
+        </div>
+        <div id="overlay"></div>
+    
+    
+    <!-- Javascripts -->
+    <script src="js/jquery-2.1.4.min.js"></script><!-- jQuery library -->
+    <script src="js/styleswitcher.js"></script> 
+	<script src="perfect-scrollbar/jquery.mousewheel.js"></script>
+	<script src="perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="js/main.js"></script><!-- Main js -->
+    
+</body>
+</html>
